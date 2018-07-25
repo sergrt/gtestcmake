@@ -12,7 +12,7 @@ CMake files to generate empty Visual Studio project with supplementary unit-test
 4. Clone googletest and put it to "3rdparty/googletest" folder
 5. Run runme.bat
 
-As a result, "build" folder will be created, where all solution files will be placed.
+As a result, "build" folder will be created, where all solution files will be placed. Two folders, one with your "PROJECT_NAME", and one with "PROJECT_NAME_UnitTests" name will be created, with simple main.cpp files.
 
 ## Known limitations
 Despite "USE_PRECOMPILED_HEADERS" option works, it is necessary to set "Precompiled Header" option for your project to "Create (/Yc)" at first compilation. After first compilation complete, set it back to "Use (/Yu)". Any suggestions on this are welcome.
